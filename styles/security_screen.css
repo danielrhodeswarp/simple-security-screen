@@ -1,0 +1,13 @@
+/*
+NOTE: File not in use (see code commentary in service_worker.js)
+{getting the opacity value out of local storage and into here would be quite the challenge too}
+*/
+#simple-security-screen-chrome-extension {
+    pointer-events: "none";
+    width: "100vw";
+    height: "100vh";
+    z-index: "2000";
+    position: "fixed";
+    top: "0";
+    background-color: "rgba(0, 0, 0, 0.6)"; /* chrome.storage.local.get('opacity') */
+}
